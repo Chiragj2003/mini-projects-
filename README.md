@@ -1,5 +1,10 @@
 # Basic Python Projects 
 
+## Beginner Friendly Chat Bot 
+
+This Python script creates a chatbot using OpenAI's GPT-3.5 Turbo model. The chatbot is designed to have conversations with users. The code reads an API key from a secure .env file, sets up communication with the OpenAI GPT-3.5 Turbo model, and then starts a chat loop. Users can type messages, and the chatbot responds based on the input. The conversation continues until the user types "exit" to end the interaction. The script showcases the use of advanced natural language processing provided by GPT-3.5 Turbo, making the chatbot capable of engaging in meaningful and context-aware conversations.
+
+
 ## Speed Test Code 
 Imagine a program that lets you test your internet speed with just a click
 ! This Python script builds a basic screen with a "Start Test" button. Once 
