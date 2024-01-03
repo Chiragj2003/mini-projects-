@@ -1,7 +1,11 @@
 from pickle import HIGHEST_PROTOCOL
 import openai
+from dotenv import dotenv_values
 
-api_key = "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"
+api_key_dict = dotenv_values(".env")
+api_key = api_key_dict.get('API_KEY')
+
+print(api_key)
 openai.api_key = api_key
 
 def chat_with_gpt(user_input):
