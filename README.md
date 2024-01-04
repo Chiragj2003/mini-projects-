@@ -16,3 +16,6 @@ response time (how long it takes to talk to websites). It's like having a mini
 internet speedometer for your computer!
 While this program works well, it can be improved by removing unnecessary 
 windows and organizing the code more neatly. But overall, it's a cool example of using Python to create a simple and helpful tool!
+
+## Typing speed and accuracy test 
+This Python script conducts a typing speed and accuracy test. It randomly selects a sentence from a predefined list, prompts the user to type it, measures the time taken, and calculates typing speed and accuracy. The program showcases random sentence generation, input handling, and basic performance metrics. Users receive feedback on their typing speed, accuracy, and overall performance after completing the test.
