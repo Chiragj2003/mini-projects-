@@ -44,6 +44,4 @@ Feel free to customize the code or expand the application by adding more feature
 
 This language translation application serves as a practical example for beginners interested in building graphical applications for language processing tasks. Explore the code, experiment with different languages, and adapt it to your specific needs.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
