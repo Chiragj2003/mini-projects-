@@ -25,6 +25,9 @@ This Python script conducts a typing speed and accuracy test. It randomly select
 
 This Python script implements a simple language translation application using Tkinter and the `translate` library. The application provides a user-friendly interface for translating text from one language to another.
 
+# youtube video manager 
+This Python script manages YouTube videos with functionalities to list, add, update, and delete videos stored in a JSON file. It provides a text-based menu for user interaction, allowing seamless video management and updates while maintaining data integrity by saving changes to the file.
+
 ## Features
 - **Language Selection:** Users can choose both the input language and the target language from a list of available options, including Hindi, English, French, German, and Spanish.
 - **Text Input and Output:** Enter the text to be translated in the "Enter Text" field, and the translated output will be displayed in the "Output Text" field. Tkinter StringVar variables are used to dynamically link input and output fields.
