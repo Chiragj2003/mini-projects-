@@ -1,0 +1,3 @@
+pomodoro_stats.json
+*.pyc
+__pycache__/

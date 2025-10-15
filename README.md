@@ -11,6 +11,7 @@ A collection of beginner-friendly to intermediate Python projects organized in s
 
 ### 💰 Finance & Productivity
 - **[expense-tracker/](expense-tracker/)** - Track daily expenses with charts and reports
+- **[pomodoro-timer/](pomodoro-timer/)** - Productivity timer based on Pomodoro Technique
 
 ### 🌐 Web & API Projects
 - **[weather-detection/](weather-detection/)** - Real-time weather information with GUI
@@ -60,6 +61,9 @@ Secure command-line password manager with military-grade encryption. Store, retr
 
 ### 💰 Expense Tracker
 Track your daily expenses with detailed reports and beautiful visualizations. Features monthly summaries, category-based filtering, and multiple chart types for analyzing spending patterns.
+
+### 🍅 Pomodoro Timer
+Beautiful productivity timer with GUI based on the Pomodoro Technique. Features 25-minute work sessions, automatic breaks, sound notifications, and daily statistics tracking.
 
 
 # Speed Test Code 
