@@ -12,6 +12,7 @@ A collection of beginner-friendly to intermediate Python projects organized in s
 ### 💰 Finance & Productivity
 - **[expense-tracker/](expense-tracker/)** - Track daily expenses with charts and reports
 - **[pomodoro-timer/](pomodoro-timer/)** - Productivity timer based on Pomodoro Technique
+- **[file-organizer/](file-organizer/)** - Auto-organize files into categorized folders
 
 ### 🌐 Web & API Projects
 - **[weather-detection/](weather-detection/)** - Real-time weather information with GUI
@@ -64,6 +65,9 @@ Track your daily expenses with detailed reports and beautiful visualizations. Fe
 
 ### 🍅 Pomodoro Timer
 Beautiful productivity timer with GUI based on the Pomodoro Technique. Features 25-minute work sessions, automatic breaks, sound notifications, and daily statistics tracking.
+
+### 📁 File Organizer
+Automatically organize messy folders by categorizing files into 12+ predefined categories. Features dry run mode, undo functionality, statistics, and detailed logging.
 
 
 # Speed Test Code 

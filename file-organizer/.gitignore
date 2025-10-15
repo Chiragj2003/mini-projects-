@@ -1,0 +1,4 @@
+organization_history.json
+file_organizer.log
+*.pyc
+__pycache__/
