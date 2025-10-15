@@ -1,0 +1,33 @@
+# Python Mini Projects - Requirements
+# Install all dependencies with: pip install -r requirements.txt
+
+# Password Manager
+cryptography>=41.0.0
+
+# Expense Tracker
+matplotlib>=3.7.0
+
+# Currency Converter & Weather Detection
+requests>=2.31.0
+
+# Chatbot
+openai>=1.0.0
+
+# QR Code Generator
+qrcode>=7.4.0
+pillow>=10.0.0
+
+# Music Player
+pygame>=2.5.0
+
+# Language Translator
+translate>=3.6.0
+
+# Internet Speed Test
+speedtest-cli>=2.1.3
+
+# Note: Tkinter comes pre-installed with Python
+# Note: Some projects use only built-in libraries and have no external dependencies
+
+# Optional for environment variables
+python-dotenv>=1.0.0

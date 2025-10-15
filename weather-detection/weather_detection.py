@@ -1,15 +1,26 @@
 from tkinter import * 
 from tkinter import messagebox
 
-def tell_weather() :
+def tell_weather():
 
-	import requests, json
-	api_key = "Your_API_key"
+	import requests
+	import json
+	import os
+	
+	# Get API key from environment variable or use placeholder
+	api_key = os.environ.get('OPENWEATHER_API_KEY', 'Your_API_key')
+	
+	if api_key == 'Your_API_key':
+		messagebox.showwarning("API Key Required", 
+			"Please set OPENWEATHER_API_KEY environment variable.\n"
+			"Get your free API key from: https://openweathermap.org/api")
+		return
+	
 	base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 	city_name = city_field.get()
 
-	complete_url = base_url + "appid =" + api_key+ "&q =" + city_name
+	complete_url = base_url + "appid=" + api_key + "&q=" + city_name
 
 
 	response = requests.get(complete_url)

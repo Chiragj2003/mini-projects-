@@ -23,15 +23,15 @@ text_info.pack(fill=BOTH)
 scrollbar.config(command=text_info.yview)
 
 def save():
-  filepath = asksaveasfilename(defaultextension="txt",filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
-  if not filepath:
-    return 
+    filepath = asksaveasfilename(defaultextension="txt", filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
+    if not filepath:
+        return
     with open(filepath, "w") as output_file:
-      text = Editor.get(1.0, tk.END)
-      output_file.write(text)
-  stimulator_window.title(f"Entitled - {filepath}")
+        text = text_info.get(1.0, tk.END)
+        output_file.write(text)
+    stimulator_window.title(f"Text Editor - {filepath}")
 
-button = Button(stimulator_window,text='Save',font=('normal',10),command=save, bg='yellow')
+button = Button(stimulator_window, text='Save', font=('normal', 10), command=save, bg='yellow')
 button.place(x=270,y=520)
 
 stimulator_window.mainloop()

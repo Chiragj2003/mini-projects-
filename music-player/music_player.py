@@ -13,10 +13,9 @@ songs_list.grid(columnspan=9)
 
 
 def addsongs():
-    temp_song=filedialog.askopenfilenames(initialdir="Music/",title="Choose a song", filetypes=(("mp3 Files","*.mp3"),))
+    temp_song = filedialog.askopenfilenames(initialdir="~/", title="Choose a song", filetypes=(("mp3 Files", "*.mp3"), ("All Files", "*.*")))
     for s in temp_song:
-        s=s.replace("C:/Users/DataFlair/python-mp3-music-player/","")
-    songs_list.insert(END,s)
+        songs_list.insert(END, s)
      
 def deletesong():
     curr_song=songs_list.curselection()
@@ -24,8 +23,7 @@ def deletesong():
     
     
 def Play():
-    song=songs_list.get(ACTIVE)
-    song=f'C:/Users/lenovo/Desktop/DataFlair/Notepad/Music/{song}'
+    song = songs_list.get(ACTIVE)
     mixer.music.load(song)
     mixer.music.play()
 
@@ -45,35 +43,41 @@ def Resume():
 
 #Function to navigate from the current song
 def Previous():
-    #to get the selected song index
-    previous_one=songs_list.curselection()
-    #to get the previous song index
-    previous_one=previous_one[0]-1
-    #to get the previous song
-    temp2=songs_list.get(previous_one)
-    temp2=f'C:/Users/DataFlair/python-mp3-music-player/{temp2}'
+    # Get the selected song index
+    previous_one = songs_list.curselection()
+    if not previous_one:
+        return
+    # Get the previous song index
+    previous_one = previous_one[0] - 1
+    if previous_one < 0:
+        previous_one = songs_list.size() - 1
+    # Get the previous song
+    temp2 = songs_list.get(previous_one)
     mixer.music.load(temp2)
     mixer.music.play()
-    songs_list.selection_clear(0,END)
-    #activate new song
+    songs_list.selection_clear(0, END)
+    # Activate new song
     songs_list.activate(previous_one)
-    #set the next song
+    # Set the next song
     songs_list.selection_set(previous_one)
 
 def Next():
-    #to get the selected song index
-    next_one=songs_list.curselection()
-    #to get the next song index
-    next_one=next_one[0]+1
-    #to get the next song 
-    temp=songs_list.get(next_one)
-    temp=f'C:/Users/DataFlair/python-mp3-music-player/{temp}'
+    # Get the selected song index
+    next_one = songs_list.curselection()
+    if not next_one:
+        return
+    # Get the next song index
+    next_one = next_one[0] + 1
+    if next_one >= songs_list.size():
+        next_one = 0
+    # Get the next song
+    temp = songs_list.get(next_one)
     mixer.music.load(temp)
     mixer.music.play()
-    songs_list.selection_clear(0,END)
-    #activate newsong
+    songs_list.selection_clear(0, END)
+    # Activate new song
     songs_list.activate(next_one)
-     #set the next song
+    # Set the next song
     songs_list.selection_set(next_one)
     
 
