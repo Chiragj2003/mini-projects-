@@ -1,0 +1,5 @@
+passwords.json
+key.key
+master.hash
+*.pyc
+__pycache__/
