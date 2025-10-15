@@ -9,6 +9,9 @@ A collection of beginner-friendly to intermediate Python projects organized in s
 - **[chatbot/](chatbot/)** - AI chatbot using OpenAI's GPT-3.5 Turbo
 - **[qr-code-generator/](qr-code-generator/)** - Generate QR codes from text/URLs
 
+### 💰 Finance & Productivity
+- **[expense-tracker/](expense-tracker/)** - Track daily expenses with charts and reports
+
 ### 🌐 Web & API Projects
 - **[weather-detection/](weather-detection/)** - Real-time weather information with GUI
 - **[internet-speed-test/](internet-speed-test/)** - Test your internet connection speed
@@ -54,6 +57,9 @@ pip install tkinter pygame cryptography requests openai qrcode translate speedte
 
 ### 🔐 Password Manager
 Secure command-line password manager with military-grade encryption. Store, retrieve, and manage passwords safely with master password protection.
+
+### 💰 Expense Tracker
+Track your daily expenses with detailed reports and beautiful visualizations. Features monthly summaries, category-based filtering, and multiple chart types for analyzing spending patterns.
 
 
 # Speed Test Code 

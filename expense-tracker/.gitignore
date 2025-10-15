@@ -1,0 +1,4 @@
+expenses.json
+expenses_export_*.csv
+*.pyc
+__pycache__/
