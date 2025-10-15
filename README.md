@@ -13,6 +13,7 @@ A collection of beginner-friendly to intermediate Python projects organized in s
 - **[expense-tracker/](expense-tracker/)** - Track daily expenses with charts and reports
 - **[pomodoro-timer/](pomodoro-timer/)** - Productivity timer based on Pomodoro Technique
 - **[file-organizer/](file-organizer/)** - Auto-organize files into categorized folders
+- **[currency-converter/](currency-converter/)** - Real-time currency converter with 150+ currencies
 
 ### 🌐 Web & API Projects
 - **[weather-detection/](weather-detection/)** - Real-time weather information with GUI
@@ -68,6 +69,9 @@ Beautiful productivity timer with GUI based on the Pomodoro Technique. Features 
 
 ### 📁 File Organizer
 Automatically organize messy folders by categorizing files into 12+ predefined categories. Features dry run mode, undo functionality, statistics, and detailed logging.
+
+### 💱 Currency Converter
+Real-time currency converter with beautiful GUI supporting 150+ world currencies. Features smart caching, conversion history, offline mode, and quick access to popular currency rates.
 
 
 # Speed Test Code 

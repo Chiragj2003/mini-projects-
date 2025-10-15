@@ -1,0 +1,4 @@
+exchange_rates_cache.json
+conversion_history.json
+*.pyc
+__pycache__/
